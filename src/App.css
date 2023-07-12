@@ -1,0 +1,87 @@
+body {
+  background-color: #62c2c8;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app {
+  background-color: #ffffff;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: #f0f0f0;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.main {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.add {
+  margin-top: 5px;
+  background: #65aa06;
+}
+
+.del {
+  background: #d30100;
+  margin-bottom: 5px;
+}
+
+.btn {
+  width: 70%;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inp {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pict {
+  border-radius: 50%;
+}
+
+.like, .msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inp_msg {
+  height: 100px;
+  margin-bottom: 20px;
+}
